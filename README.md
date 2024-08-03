@@ -1,6 +1,3 @@
-Thank you for providing the current README for the Models repository. I'll update it to align more closely with our standard format and ensure all necessary information is included. Here's the revised version:
-
-```markdown
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
