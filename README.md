@@ -1,77 +1,25 @@
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-CC%20BY%204.0-green.svg)
+![Version](https://img.shields.io/badge/version-1.1.0-blue.svg) ![License](https://img.shields.io/badge/license-CC%20BY%204.0-green.svg)
 
-# Models
+# Vector Database Cloud Models
 
 Welcome to the Vector Database Cloud Models repository! This repository curates a list of Hugging Face models optimized for use with vector databases such as pgvector, Milvus, Qdrant, and ChromaDB. These models enhance functionalities like semantic search, classification, and other machine learning applications.
 
 ## Table of Contents
 
-- [About](#about)
-- [Prerequisites](#prerequisites)
-- [Models](#models)
-  - [Text Embeddings](#text-embeddings)
-  - [Image Embeddings](#image-embeddings)
-  - [Multimodal Models](#multimodal-models)
-- [Usage](#usage)
-- [Best Practices](#best-practices)
-- [Troubleshooting](#troubleshooting)
-- [Contribution and Feedback](#contribution-and-feedback)
-- [Related Resources](#related-resources)
-- [Code of Conduct](#code-of-conduct)
-- [License](#license)
-- [Disclaimer](#disclaimer)
-
-
-## About
-
-This repository serves as a centralized resource for finding and sharing machine learning models that integrate seamlessly with vector databases. The curated models are selected based on their performance and compatibility with vector database technologies, enabling developers to enhance their applications with advanced AI capabilities.
-
-
-## Prerequisites
-
-- Python 3.7+
-- Knowledge of machine learning and vector databases
-- Familiarity with Hugging Face's transformers library
-- Access to vector database systems (e.g., pgvector, Milvus, Qdrant, ChromaDB)
-
-## Models
-
-### Text Embeddings
-
-- **BERT (Bidirectional Encoder Representations from Transformers)**
-  *Description*: A transformer-based model designed for various NLP tasks, including semantic search and question answering.
-  *Link*: [BERT on Hugging Face](https://huggingface.co/bert-base-uncased)
-  *Last Updated*: 2023-05-15
-
-- **SBERT (Sentence-BERT)**
-  *Description*: An extension of BERT optimized for generating high-quality sentence embeddings, ideal for clustering and semantic search.
-  *Link*: [SBERT on Hugging Face](https://huggingface.co/sentence-transformers/bert-base-nli-mean-tokens)
-  *Last Updated*: 2023-06-01
-
-### Image Embeddings
-
-- **ResNet (Residual Networks)**
-  *Description*: A popular deep learning model used for image recognition tasks, suitable for generating image embeddings.
-  *Link*: [ResNet on Hugging Face](https://huggingface.co/microsoft/resnet-50)
-  *Last Updated*: 2023-04-20
-
-- **CLIP (Contrastive Language–Image Pretraining)**
-  *Description*: A model capable of understanding images and text together, useful for multimodal applications.
-  *Link*: [CLIP on Hugging Face](https://huggingface.co/openai/clip-vit-base-patch32)
-  *Last Updated*: 2023-05-30
-
-### Multimodal Models
-
-- **VisualBERT**
-  *Description*: Combines visual and textual information, great for tasks that require understanding both image and text inputs.
-  *Link*: [VisualBERT on Hugging Face](https://huggingface.co/uclanlp/visualbert-nlvr2-coco-pre)
-  *Last Updated*: 2023-03-10
- 
-- **VilBERT**
-  *Description*: A model designed for tasks that require joint understanding of vision and language.
-  *Link*: [VilBERT on Hugging Face](https://huggingface.co/facebook/vilbert-multi-task)
-  *Last Updated*: 2023-04-05
+1. [About](#about)
+2. [Prerequisites](#prerequisites)
+3. [Models](#models)
+   - [Text Embeddings](#text-embeddings)
+   - [Image Embeddings](#image-embeddings)
+   - [Multimodal Models](#multimodal-models)
+4. [Usage](#usage)
+5. [Best Practices](#best-practices)
+6. [Troubleshooting](#troubleshooting)
+7. [Contribution and Feedback](#contribution-and-feedback)
+8. [Related Resources](#related-resources)
+9. [Code of Conduct](#code-of-conduct)
+10. [License](#license)
+11. [Disclaimer](#disclaimer)
 
 ## Usage
 
@@ -111,6 +59,8 @@ For specific integration examples, check the documentation of your vector databa
 3. Regularly update your models to benefit from the latest improvements.
 4. Implement proper error handling and logging in your embedding generation pipeline.
 5. Consider the computational resources required for each model, especially for large-scale applications.
+6. Use batch processing for large datasets to improve efficiency.
+7. Implement caching mechanisms to avoid redundant computations.
 
 ## Troubleshooting
 
@@ -122,6 +72,9 @@ For specific integration examples, check the documentation of your vector databa
 
 - **Issue**: Slow embedding generation
   **Solution**: Consider using GPU acceleration or a more lightweight model for faster processing.
+
+- **Issue**: Incompatible model outputs with vector database
+  **Solution**: Ensure the output dimensions of your model match the requirements of your vector database.
 
 ## Contribution and Feedback
 
@@ -168,7 +121,6 @@ No additional restrictions — You may not apply legal terms or technological me
 For the full license text, visit: https://creativecommons.org/licenses/by/4.0/legalcode
 
 
-
 ## Disclaimer
 
 The information and resources provided in this community repository are for general informational purposes only. While we strive to keep the information up-to-date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the information, products, services, or related graphics contained in this repository for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
@@ -183,4 +135,4 @@ The use of any information or code in this repository may carry inherent risks, 
 
 For complex implementations or critical systems, we strongly recommend seeking advice from qualified professionals or consulting services.
 
-By using this repository, you acknowledge and agree to this disclaimer. If you do not agree with any part of this disclaimer, please do not use the information or resources provided in this repository.
+By using this repository, you acknowledge and agree to this disclaimer. If you do not agree with any part of this disclaimer, please do not use the information or resources provided in this repository. 
