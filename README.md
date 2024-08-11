@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![License](https://img.shields.io/badge/license-CC%20BY%204.0-green.svg)
 
 # Models
 
@@ -92,14 +92,40 @@ For any issues or suggestions, please use the issue tracker.
 We adhere to the [Vector Database Cloud Code of Conduct](https://github.com/VectorDBCloud/Community/blob/main/CODE_OF_CONDUCT.md). Please respect these guidelines when contributing to or using this repository.
 
 
+
+## License
+
+This work is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Copyright (c) 2024 Vector Database Cloud
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+- Attribution — You must give appropriate credit to Vector Database Cloud, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests Vector Database Cloud endorses you or your use.
+
+Additionally, we require that any use of this guide includes visible attribution to Vector Database Cloud. This attribution should be in the form of "Based on Models curated by Vector Database Cloud", along with a link to https://vectordbcloud.com, in any public-facing applications, documentation, or redistributions of this guide.
+
+No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+For the full license text, visit: https://creativecommons.org/licenses/by/4.0/legalcode
+
+
+
 ## Disclaimer
 
-The models listed in this repository are third-party creations and are subject to their respective licenses and terms of use. While we strive to ensure the quality and suitability of these models for use with vector databases, Vector Database Cloud is not responsible for the performance, accuracy, or any consequences resulting from the use of these models.
+The information and resources provided in this community repository are for general informational purposes only. While we strive to keep the information up-to-date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the information, products, services, or related graphics contained in this repository for any purpose. Any reliance you place on such information is therefore strictly at your own risk.
 
-Users should carefully review the license and usage terms of each model before incorporating them into their projects. It is the responsibility of the user to ensure compliance with all applicable licenses and to verify the suitability of the model for their specific use case.
+Vector Database Cloud configurations may vary, and it's essential to consult the official documentation before implementing any solutions or suggestions found in this community repository. Always follow best practices for security and performance when working with databases and cloud services.
 
-The integration examples and usage suggestions provided in this repository are for illustrative purposes only and may need to be adapted to work with specific vector database implementations or versions. Users should thoroughly test and validate the models and their integrations in a non-production environment before deploying them in any critical or production systems.
+The content in this repository may change without notice. Users are responsible for ensuring they are using the most current version of any information or code provided.
 
-Vector Database Cloud does not provide support for the individual models listed here. For issues related to specific models, please refer to their respective documentation or support channels.
+This disclaimer applies to Vector Database Cloud, its contributors, and any third parties involved in creating, producing, or delivering the content in this repository.
 
-Always follow best practices for security, data privacy, and model deployment when working with machine learning models and vector databases, especially when handling sensitive data or deploying in production environments.
+The use of any information or code in this repository may carry inherent risks, including but not limited to data loss, system failures, or security vulnerabilities. Users should thoroughly test and validate any implementations in a safe environment before deploying to production systems.
+
+For complex implementations or critical systems, we strongly recommend seeking advice from qualified professionals or consulting services.
+
+By using this repository, you acknowledge and agree to this disclaimer. If you do not agree with any part of this disclaimer, please do not use the information or resources provided in this repository.
